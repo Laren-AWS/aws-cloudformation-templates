@@ -1,0 +1,16 @@
+s3_CompliantBucket:
+  title: Create a secure bucket that passes default security scanning checks by using a &CFN; template
+  title_abbrev: Create a secure bucket that passes default security scanning checks
+  synopsis: create a secure bucket that passes default security scanning checks.
+  category: CloudFormation templates
+  languages:
+    CloudFormation:
+      versions:
+        - sdk_version: 1
+          github: S3
+          excerpts:
+            - description: The YAML version.
+              snippet_files:
+                - S3/compliant-bucket.yaml
+  services:
+    s3: {}

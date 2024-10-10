@@ -1,0 +1,19 @@
+CloudFormation:
+  property: yaml
+  syntax: yaml
+  sdk:
+    1:
+      long: "&CFNlong;"
+      short: "&CFN;"
+      expanded:
+        long: "AWS CloudFormation"
+        short: "AWS CloudFormation"
+      guide: "AWSCloudFormation/latest/UserGuide/Welcome.html"
+      title_override:
+        title: "&CFN; template examples"
+        title_abbrev: "Template examples"
+      api_ref:
+        uid: "cloudformation"
+        name: "&guide-cfn-api;"
+        link_template: "https://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/Welcome.html"
+  guide: "&guide-cfn-user;"
