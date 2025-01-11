@@ -4,12 +4,20 @@ s3_CompliantBucket:
   synopsis: create a secure bucket that passes default security scanning checks.
   category: CloudFormation templates
   languages:
-    CloudFormation:
+    CloudFormation YAML:
       versions:
         - sdk_version: 1
           github: S3
           excerpts:
             - description: The YAML version.
+              snippet_files:
+                - S3/compliant-bucket.yaml
+    CloudFormation JSON:
+      versions:
+        - sdk_version: 1
+          github: S3
+          excerpts:
+            - description: The JSON version (yes, it's actually YAMl right now, I know).
               snippet_files:
                 - S3/compliant-bucket.yaml
   services:
